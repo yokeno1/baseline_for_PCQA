@@ -46,3 +46,12 @@ NR:
 
 ## EXPERIMENT
 All experiments were implemented on a server with INTEL I9-14900K CPU, 64 GB RAM and NVIDIA RTX4090D-24G GPU.
+
+|  metrics   | |SJTU | | | |WPC  | | |
+|------------|-|-|-|-|-|-----|-|-|
+| |PLCC|SRCC|KRCC|RMSE|PLCC|SRCC|KRCC|RMSE|
+|P2point |
+|P2point |
+|P2plane
+|
+

@@ -1,11 +1,11 @@
-# baseline_for_PCQA
+# Baseline_for_PCQA
 # Point Cloud Quality Assessment (PCQA) Learning Repository
 
 Welcome to the Point Cloud Quality Assessment (PCQA) Learning Repository! This repository is dedicated to learning, exploring, and implementing various techniques for evaluating the quality of point clouds.
 
 ## Table of Contents
 
-- [baseline\_for\_PCQA](#baseline_for_pcqa)
+- [Baseline\_for\_PCQA](#baseline_for_pcqa)
 - [Point Cloud Quality Assessment (PCQA) Learning Repository](#point-cloud-quality-assessment-pcqa-learning-repository)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -49,9 +49,9 @@ All experiments were implemented on a server with INTEL I9-14900K CPU, 64 GB RAM
 
 |  metrics   | |SJTU | | | |WPC  | | |
 |------------|-|-|-|-|-|-----|-|-|
-| |PLCC|SRCC|KRCC|RMSE|PLCC|SRCC|KRCC|RMSE|
-|P2point |
-|P2point |
-|P2plane
-|
+|            |PLCC|SRCC|KRCC|RMSE|PLCC|SRCC|KRCC|RMSE|
+|P2point_MSE | 0.775843 | 0.715329 | 0.536786 | 5.599031 | 0.513465 | 0.511097 | 0.354472 | 5.295534|
+|P2point_HD | 0.700806 | 0.671430 | 0.495518 | 5.527702 |
+|P2plane_MSE |
+|P2plane_HD |
 

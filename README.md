@@ -28,7 +28,7 @@ The main reference comes from this link：[Point-cloud-quality-assessment](https
 FR:
     1. P2point: [matlab](./matlab/point_to_point.m),[python](./point2point.py)  
     2. P2plane: [matlab](./matlab/point_to_plane.m),[python](./point2plane.py)  
-    3. PointSSIM:  
+    3. PointSSIM: The source code offers four selectable modes: geometry, normal, curvature, and color. In most PCQA articles, the specific mode used is not explicitly mentioned.  
     4. PCQM:  
     5.   
 Note: For geometric only methods, due to color distortion in the SJTU dataset, we excluded this part for PLCC calculation
@@ -50,8 +50,13 @@ All experiments were implemented on a server with INTEL I9-14900K CPU, 64 GB RAM
 |  metrics   | |SJTU | | | |WPC  | | |
 |------------|-|-|-|-|-|-----|-|-|
 |            |PLCC|SRCC|KRCC|RMSE|PLCC|SRCC|KRCC|RMSE|
-|P2point_MSE | 0.775843 | 0.715329 | 0.536786 | 5.599031 | 0.513465 | 0.511097 | 0.354472 | 5.295534|
-|P2point_HD | 0.700806 | 0.671430 | 0.495518 | 5.527702 |
-|P2plane_MSE |
-|P2plane_HD |
+|P2point_MSE | 0.775843 | 0.715329 | 0.536786 | 1.531142 | 0.457139 | 0.451657 | 0.312855 | 20.387780| 
+|P2point_HD | 0.700806 | 0.671430 | 0.495518 | 1.731176 |0.358211 | 0.281550 | 0.191817 | 21.402017
+|P2plane_MSE | 0.670508 | 0.605116 | 0.450819 | 1.800461 | 0.251108 | 0.326213 | 0.223586 | 22.923189 |
+|P2plane_HD | 0.664976 | 0.627832 | 0.454506 | 1.812505 | 0.348689 | 0.291444 | 0.201330 | 21.484496 |
+|PointSSIM |
+|
+|GMS-3DQA | 0.93189367 | 0.92208374 | 0.77271558 | 0.84681154 | 0.82700251 | 0.82313567 |  0.64041184 | 12.61126236 |
+|MM-PCQA |
+|
 
